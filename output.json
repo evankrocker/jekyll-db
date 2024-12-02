@@ -2,9 +2,9 @@
 layout: none
 ---
 [{% for post in site.posts %}{
-	"company-name": "{{post.company-name}}",
-	"city": "{{post.city}}",
-	"state": "{{post.state}}",
+	"artist": "{{post.artist}}",
+	"album": "{{post.album_title}}",
+	"artwork": "{{post.state}}",
 	"employees": "{{post.employees}}",
 	"tags": "{{ post.tags | array_to_sentence_string }}",
 	"categories": "{{post.categories}}"
